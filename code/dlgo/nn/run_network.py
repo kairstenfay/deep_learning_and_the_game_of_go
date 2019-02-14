@@ -1,7 +1,7 @@
 # tag::test_setup[]
-from dlgo.nn import load_mnist
-from dlgo.nn import network
-from dlgo.nn.layers import DenseLayer, ActivationLayer
+import load_mnist
+import network
+from layers import DenseLayer, ActivationLayer
 
 training_data, test_data = load_mnist.load_data()  # <1>
 
