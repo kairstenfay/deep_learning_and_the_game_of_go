@@ -110,5 +110,7 @@ stem*.png
 # Mac OS nonsense
 .DS_Store
 
-./kgs_index.html
-./data
+kgs_index.html
+data
+code/examples/data
+code/agents/deep_bot.h5
