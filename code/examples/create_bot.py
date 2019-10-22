@@ -1,6 +1,8 @@
 # Include the path to the local version of dlgo.
 import os
 import sys
+dir_path = os.path.dirname(os.path.realpath(__file__))
+sys.path.insert(0, os.path.join(dir_path, '..'))
 
 # tag::e2e_imports[]
 import h5py
@@ -45,6 +47,4 @@ def main():
 	# end::e2e_agent[]
 
 if __name__ == "__main__":
-	dir_path = os.path.dirname(os.path.realpath(__file__))
-	sys.path.insert(0, os.path.join(dir_path, '..'))
 	main()
